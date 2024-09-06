@@ -23,6 +23,7 @@ class Settings(BaseSettings):
         "vp_qqq",
     ]
     AUTO_CLAIM_COMBO: bool = False
+    AUTO_USE_ITEM: bool = False
 
     USE_RANDOM_DELAY_IN_RUN: bool = True
     RANDOM_DELAY_IN_RUN: list[int] = [1, 15]
