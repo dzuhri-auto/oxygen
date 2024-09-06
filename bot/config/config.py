@@ -5,8 +5,8 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", env_ignore_empty=True)
     API_KEY: str
 
-    MAX_FOOD_LVL: int = 10
-    MAX_OXY_LVL: int = 10
+    MAX_FOOD_LVL: int = 50
+    MAX_OXY_LVL: int = 50
     TASK_CODES: list[str] = [
         "okx",
         "tappc_c",
