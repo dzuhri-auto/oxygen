@@ -4,6 +4,32 @@ Oxygen Miner Telegram Mini App Bot
 
 For README in Bahasa Indonesia: [![en](https://img.shields.io/badge/README-id-red.svg)](https://github.com/dzuhri-auto/oxygen/blob/master/README.id.md)
 
+## Feature
+
+- Auto Collect Food
+- Auto Claim Daily Check-in
+- Auto Open Box
+- Auto Use Item from Box (deactivated by default)
+- Auto Claim Combo (using .env)
+- Auto Upgrade Boost
+- Auto Clear Mission / Tasks
+- Auto Play Game (need 1 referral)
+
+## .env Settings
+
+| Name | Description | Default |
+| --- | ----------- | --------- |
+| API_KEY | Custom API KEY | |
+| MAX_FOOD_LVL | Maximum level to auto upgrade food boost | 50 |
+| MAX_OXY_LVL | Maximum level to auto upgrade oxy boost | 50 |
+| TASK_CODES | Task or mission id | ["okx","tappc_c","tappc_p","oxy-yt","oxy-tg", "join_tw","oxy-chat", "oxy-chat-en", "join_ds", "join_guild", "acki", "vp_pig","vp_qqq"] |
+| AUTO_USE_ITEM | Auto use item from box | False |
+| RANDOM_PLAY_GAME | Randomize how many to play ufo game | [2, 5]|
+| GAME_SCORES | Randomize score for each play ufo game | [80, 100] |
+| USE_RANDOM_DELAY_IN_RUN | Activate delay before start the bot | True |
+| RANDOM_DELAY_IN_RUN | Randomize delay seconds before start the bot | [1, 15] |
+| USE_PROXY_FROM_FILE | For using proxy | False |
+
 ## Preparation
 
 Make sure you already install:
