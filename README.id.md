@@ -2,35 +2,35 @@
 
 Oxygen Miner Telegram Mini App Bot
 
-For README in Bahasa Indonesia: [![en](https://img.shields.io/badge/README-id-red.svg)](https://github.com/dzuhri-auto/oxygen/blob/master/README.id.md)
+For README in English: [![en](https://img.shields.io/badge/README-en-red.svg)](https://github.com/dzuhri-auto/oxygen/blob/master/README.md)
 
-## Preparation
+## Persiapan
 
-Make sure you already install:
+Pastikan kamu sudah install:
 
 - [Python](https://www.python.org/downloads/release/python-31014/) **version 3.10**
 
 ## Request API KEY
 
-This script use custom API KEY, The API KEY itself is for rent only
+Script ini butuh custom API KEY , API KEY nya cuma disewakan only.
 
-you can chat me, [Irham](https://t.me/irhamdz) to ask how much the rent price !
+Chat [Irham](https://t.me/irhamdz) "bang mau sewa api key", buat harga sewa nya !
 
 ## Install
 
-Clone to your PC / VPS:
+git clone ke pc / vps kamu:
 
 ```shell
 git clone https://github.com/dzuhri-auto/oxygen.git
 ```
 
-Go inside to the folder:
+Masuk ke folder nya
 
 ```shell
 cd oxygen
 ```
 
-Then use this command for automatic install:
+Lalu bisa pake command dibawah untuk otomatis install:
 
 **Windows** :
 
@@ -48,11 +48,11 @@ sudo chmod +x ubuntu/install.sh ubuntu/run.sh ubuntu/update.sh
 ./ubuntu/install.sh
 ```
 
-***note : dont forget to edit file `.env` and `profiles.json`***
+***note : jangan lupa di isi file `.env` dan `profiles.json` nya***
 
 ## Format profiles.json
 
-the `profile.json` need to have this format:
+profile.json harus isi seperti ini
 
 ```shell
 # 1 account
@@ -83,24 +83,24 @@ the `profile.json` need to have this format:
 ]
 ```
 
-for `tg-id` , `secret` and `cookie` you can get from:
+untuk `tg-id` , `secret` dan `cookie` kamu bisa dapet dari:
 
-- Open oxygen miner bot in telegram web chrome
-- Open developer console chrome
-- Open tab `network`
-- Filter `login`
-- Check the request and copy `tg-id` , `secret` dan `cookie`.
+- Buka oxygen miner bot in telegram web chrome
+- Buka developer console chrome
+- Buka tab `network`
+- filter `login`
+- Liat request nya copy `tg-id` , `secret` dan `cookie`.
 
 ## Update API KEY
 
-After install we can update using API KEY:
+Setelah install lalu kita update API KEY kita:
 
 **Windows** :
 
 ```shell
 $filePath = ".env"
 $searchPattern = "^API_KEY="
-$replacement = 'API_KEY="YOUR API KEY"'
+$replacement = 'API_KEY="GANTI PAKE API KEY KAMU"'
 
 (Get-Content $filePath) -replace $searchPattern + '.*', $replacement | Set-Content $filePath
 ```
@@ -108,15 +108,15 @@ $replacement = 'API_KEY="YOUR API KEY"'
 **Mac / Linux / VPS** :
 
 ```shell
-sed -i~ '/^API_KEY=/s/=.*/="YOUR API KEY"/' .env
+sed -i~ '/^API_KEY=/s/=.*/="GANTI PAKE API KEY KAMU"/' .env
 
-# example if your API KEY = "aisjiqiqssq"
+# contoh misalkan API KEY kamu "aisjiqiqssq"
 # sed -i~ '/^API_KEY=/s/=.*/="aisjiqiqssq"/' .env
 ```
 
 ## Start Bot
 
-For run the bot:
+Untuk menjalankan bot bisa pake command dibawah ini:
 
 **Windows** :
 
@@ -132,7 +132,7 @@ windows\run.bat
 
 ## Update Bot
 
-For update the bot:
+Untuk update bot bisa pake command dibawah ini:
 
 **Windows** :
 
