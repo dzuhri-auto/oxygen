@@ -90,6 +90,7 @@ for `tg-id` , `secret` and `cookie` you can get from:
 - Open tab `network`
 - Filter `login`
 - Check the request and copy `tg-id` , `secret` dan `cookie`.
+<img width="1370" alt="Screenshot 2024-09-12 at 04 32 43" src="https://github.com/user-attachments/assets/f8efa9b4-04ae-4697-8206-0980df99a09b">
 
 ## Update API KEY
 
