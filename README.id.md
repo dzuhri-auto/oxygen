@@ -71,7 +71,7 @@ sudo chmod +x ubuntu/install.sh ubuntu/run.sh ubuntu/update.sh
 ```
 
 ```shell
-./ubuntu/install.sh
+source ./ubuntu/install.sh
 ```
 
 ***note : jangan lupa di isi file `.env` dan `profiles.json` nya***

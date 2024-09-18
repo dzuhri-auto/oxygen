@@ -34,7 +34,7 @@ For README in Bahasa Indonesia: [![en](https://img.shields.io/badge/README-id-re
 
 Make sure you already install:
 
-- [Python](https://www.python.org/downloads/release/python-31014/) **version 3.10**
+- [Python](https://www.python.org/downloads/release/python-31012/) **version 3.10**
 
 ## Request API KEY
 
@@ -71,7 +71,7 @@ sudo chmod +x ubuntu/install.sh ubuntu/run.sh ubuntu/update.sh
 ```
 
 ```shell
-./ubuntu/install.sh
+source ./ubuntu/install.sh
 ```
 
 ***note : dont forget to edit file `.env` and `profiles.json`***
