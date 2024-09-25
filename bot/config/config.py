@@ -26,6 +26,7 @@ class Settings(BaseSettings):
     AUTO_USE_ITEM: bool = False
     RANDOM_PLAY_GAME: list[int] = [2, 5]
     GAME_SCORES: list[int] = [80, 100]
+    AUTO_PLAY_GAME: bool = False
 
     USE_RANDOM_DELAY_IN_RUN: bool = True
     RANDOM_DELAY_IN_RUN: list[int] = [1, 15]
